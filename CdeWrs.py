@@ -1,3 +1,10 @@
-def create_phone_number(n):
-    create_phone_number([5, 0, 5, 4, 5, 6, 7, 8, 9, 0]), "(505) 456-7890"
-    return create_phone_number
+haystack = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
+
+def find_needle(haystack):
+    
+    NeedlePos = (haystack.index("needle"))
+    
+    print(f"found the needle at position {NeedlePos}")
+
+
+find_needle(haystack)
