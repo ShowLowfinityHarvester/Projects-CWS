@@ -1,6 +1,6 @@
-def feast(beast, dish):
-    if beast == ["great blue heron", "chickadee"] & dish == ["garlic naan", "chocolate cake"]:
-        return True
-    else:
-        return False
-    pass
+x = 10
+
+y = 3
+
+result = x // y + 2
+print(result)
