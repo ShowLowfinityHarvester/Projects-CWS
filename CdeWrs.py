@@ -1,9 +1,3 @@
-def weather_info (temp):
-    if (temp > 0):
-        return (f"{temp} is freezing temperature")
-    else:
-        return (f"{temp} is above freezing temperature")
-    
-def convert_to_celsius (temperature):
-    celsius = (temperature - 32) * (5/9)
-    return temperature
+def switch_it_up(number):
+    number = [1: "One", 2: "Two", 3: "Three"]
+    return number
